@@ -1,0 +1,854 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navigation part start */
+
+.nav {
+    z-index: 999 !important;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+.signIn {
+    float: right;
+}
+
+.signIn>a {
+    font-size: 13.5px;
+    background-color: #007aff;
+    margin-right: 50px;
+    margin-top: 14px;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.signIn>a>i {
+    font-size: 12.5px;
+    padding-right: 2px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 15px 12px 15px;
+    text-decoration: none;
+}
+
+li>a>img {
+    width: 53px;
+    padding-left: 24px;
+}
+
+/* navigation part end */
+
+/* banner image start */
+
+#bannerimage>img {
+    width: 100%;
+    /* height: 750px; */
+}
+
+#firsth1 {
+    position: absolute;
+    color: white;
+    top: 68%;
+    left: 21%;
+    width: 800px;
+    text-align: center;
+    font-size: 80px;
+}
+
+#bannerimage>p {
+    position: absolute;
+    top: 92%;
+    color: white;
+    left: 13%;
+    font-size: 25px;
+    width: 1000px;
+    text-align: center;
+}
+
+#button>button {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 106%;
+    left: 44%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 16px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+#button>p {
+    position: absolute;
+    top: 111%;
+    left: 22%;
+    color: gray;
+    font-size: 12px;
+    width: 800px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#button a {
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.932);
+}
+
+#godown {
+    position: absolute;
+    top: 123%;
+    left: 51%;
+    width: 15px;
+}
+
+/* banner inage end */
+
+/* footer part start */
+
+.bottomMenu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid transparent;
+    background-color: #262629;
+    z-index: 1;
+    transition: all 0.3s;
+    color: whitesmoke;
+    display: flex;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+
+.hide {
+    opacity: 0;
+    bottom: -100%;
+}
+
+.show {
+    opacity: 1;
+    bottom: 0;
+}
+
+.bottomMenu>.bottomLeft {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.bottomMenu>.bottomLeft>.first {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bottomMenu>.bottomLeft>.second {
+    margin-top: -11px;
+    font-size: 14px;
+    color: rgb(213, 212, 212);
+}
+
+.bottomMenu>.bottomLeft>.second>a {
+    text-decoration: none;
+    color: #3e93ee;
+    font-weight: 600;
+}
+
+.bottomMenu>.bottomRight {
+    margin-top: 32px;
+    width: 27%;
+}
+
+.bottomMenu>.bottomRight>a {
+    margin-left: 48%;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 11px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.bottomMenu>.bottomRight>p {
+    margin-left: 46%;
+    font-size: 11px;
+    color: rgb(174, 174, 174);
+    margin-top: 13px;
+}
+
+/* footer part end */
+
+
+#firstMankind {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+#firstMankind>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#mankindP {
+    margin-left: 16px;
+    margin-top: -14px;
+    color: grey;
+    font-size: 16px;
+}
+
+#mostPopularNow {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#mostPopularNow>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#mostPopularNow>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#watchEntireSeasons {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#watchEntireSeasons>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#watchEntireSeasons>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#latestOriginal {
+    border: 1px solid white;
+    height: 220px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -9px;
+
+}
+
+#latestOriginal>p {
+    margin-left: 16px;
+    margin-top: 4px;
+
+}
+
+#latestOriginal>div {
+    border: 1px solid white;
+    height: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+}
+
+#latestOriginal>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#lstP1 {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#lstP2 {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+#lstP3 {
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+#comingSoon {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+#comingSoon>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#baseball {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+#baseball>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* start of sifi section */
+
+#sifiSection {
+    width: 100%;
+}
+
+#sifiSection>img {
+    width: 100%;
+}
+
+#sifiSection>p:nth-child(2) {
+    position: absolute;
+    top: 422%;
+    color: white;
+    left: 4%;
+    font-size: 12px;
+    ;
+    opacity: 0.8;
+}
+
+#sifiSection>h1 {
+    position: absolute;
+    top: 425%;
+    color: white;
+    left: 4%;
+    font-size: 25px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+#sifiSection>p:nth-child(4) {
+    position: absolute;
+    top: 436%;
+    color: white;
+    left: 4%;
+    font-size: 17px;
+    ;
+    opacity: 0.7;
+    width: 400px;
+}
+
+#sifiSection>div {
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
+    grid-template-rows: auto;
+    width: 100%;
+    height: 200px;
+    gap: 20px;
+    ;
+    position: absolute;
+    top: 461%;
+    margin-left: 3%;
+}
+
+#sifiSection>div>div>img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sifiSection>div>div>p{
+    color: white;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#sifiSection>div>div>p:hover{
+    text-decoration: underline;
+}
+
+/* end of sifi section */
+
+#main1 {
+    border: 1px solid white;
+    height: 210px;
+}
+
+#main1>h3 {
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+#feast_for_the_eyes {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#comedy {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#screen {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#feast_for_the_eyes>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#comedy>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#screen>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#feast_for_the_eyes>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#comedy>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#screen>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+hr {
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 20px;
+}
+
+#extraordinary_people {
+    border: 1px solid white;
+    height: 220px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -9px;
+
+}
+
+#extraordinary_people>p {
+    margin-left: 16px;
+    margin-top: 4px;
+
+}
+
+#extraordinary_people>div {
+    border: 1px solid white;
+    height: 100%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+}
+
+#creaturesCritters {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+#creaturesCritters>div {
+    border: 1px solid white;
+    height: 140px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#creaturesCritters>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#main2 {
+    border: 1px solid white;
+    height: 290px;
+}
+
+#main2>h3 {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+#extraordinary_people>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#fstP {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#secP {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+#trdP {
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+#cha_cha_real_smooth {
+    border: 1px solid black;
+    height: 500px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drama {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.drama>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.comedySec {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.comedySec>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feature {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.feature>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.singleP {
+    margin-left: 16px;
+    margin-top: -14px;
+}
+
+#coda>h3 {
+    margin-left: 16px;
+    margin-top: 3px;
+}
+
+.codaOscar {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+.codaOscar>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nonFic {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+.nonFic>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.allNonfictionSeries {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.allNonfictionSeries>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.kidsAndfamily {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+.kidsAndfamily>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#bottomdiv {
+    border: 1px solid black;
+    height: 810px;
+    margin-top: 25px;
+    background-color: black;
+}
+
+#childbottomdiv {
+    border: 1px solid black;
+    height: 750px;
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    background-color: black;
+
+}
+
+#btmlogo {
+    height: 70px;
+    width: 70px;
+}
+
+#btmdevice {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btmdevice>div>img {
+    height: 80px;
+    width: 120px;
+    margin-top: 30px;
+
+}
+
+#btmdevice>div>img+p {
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+#btmdevice2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#childbottomdiv2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#childbottomdiv2>div {
+    width: 200px;
+}
+
+#childbottomdiv2>div>img {
+    height: 60px;
+    width: 100px;
+    margin-top: 30px;
+
+}
+
+#childbottomdiv2>div>img+p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#childbottomdiv2>div>p {
+    margin: 1%;
+    font-size: 12px;
+}
+
+#lastP {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#childbottomdiv>a {
+    color: rgba(0, 162, 255, 0.747);
+    font-size: 14px;
+    text-decoration: none;
+}
