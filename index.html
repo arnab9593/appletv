@@ -8,8 +8,8 @@
     <title>Apple TV+</title>
     <link rel="icon" href="https://tv.apple.com/assets/brands/TV_App_Logo-d343000dfd3ca454ca8705a7aa7dcf4f.png"
         type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
@@ -18,11 +18,13 @@
 <body>
     <!-- navigation part -->
     <div class="nav">
-        <ul>
+        <ul id="ul">
             <li><a href="#"><img
                         src="https://tv.apple.com/assets/brands/Apple_TV_plus_logo_white-2721485772b7d06c4e33379ce990870e.svg"
                         alt="appleLogo"></a></li>
-            <li class="signIn"><a href="#"><i class="fa fa-user"></i> Sign In</a></li>
+            <!-- <li class="signIn"><a href="singinpage/login.html"><i class="fa fa-user"></i> Sign In</a></li> -->
+            <li class="signIn"></li>
+            <li class="name"></li>
         </ul>
     </div>
     <div id="bannerimage">
@@ -248,37 +250,37 @@
                 id="btmlogo">
             <h1>Watch Apple TV+ here or anywhere.</h1>
             <h2>Find Apple TV+ on the Apple TV app, available on Apple devices, smart TVs, and more.</h2>
-            <a href="">See all supported devices > </a>
+            <a href="./devicepg/Airplay.html">See all supported devices > </a>
             <div id="btmdevice">
-                <div>
+                <div onclick="appletvFun()">
                     <img src="https://tv.apple.com/assets/icons/product_landing_apple_tv_wht-9610e73e2ef117d35da65eed60d2624a.png"
                         alt="error">
                     <p>Apple TV</p>
                 </div>
-                <div>
+                <div onclick="iphone()">
                     <img src="https://tv.apple.com/assets/icons/product_landing_iPhone_wht-0adcded885905e1a22bfc7ae9bf45fa8.png"
                         alt="">
                     <p>iPhone</p>
                 </div>
-                <div>
+                <div onclick="ipad()">
                     <img src="https://tv.apple.com/assets/icons/product_landing_iPad_wht-ac93596ed7aeb5e1c15ba18bcb7bfd13.png"
                         alt="">
                     <p>iPad</p>
                 </div>
-                <div>
+                <div onclick="mac()">
                     <img src="https://tv.apple.com/assets/icons/product_landing_mac_wht-37e6f73080a15fe8a35b85e7ba8f5468.png"
                         alt="">
                     <p>Mac</p>
                 </div>
-                <div>
+                <div onclick="airplay()">
                     <img src="https://tv.apple.com/assets/icons/product_landing_airplay_wht-f348507fa5bdc6b005b126f0654aa663.png"
                         alt="">
                     <p>AirPlay</p>
                 </div>
             </div>
             <h2>See it on your big screen.</h2>
-            <a href="">Set up your device ></a> <br>
-            <a href="">Explore compatible devices ></a>
+            <a href="./devicepg/Airplay.html">Set up your device ></a> <br>
+            <a href="https://www.apple.com/apple-tv-app/devices/">Explore compatible devices ></a>
             <div id="childbottomdiv2">
                 <div>
                     <img
@@ -326,7 +328,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/signin.js"></script>
 </body>
 
 </html>

@@ -257,6 +257,7 @@ color: white;
 }
 .next{
 margin-left: 70%;
+margin-bottom: 20px;
 }
 .next>p:nth-child(2){
 font-size: 40px;
@@ -277,7 +278,7 @@ margin-left: 200px;
 margin-top: 5px;
 
 }
-.next>p:nth-child(3){
+.next>a:nth-child(3){
 position: relative;
 font-size: 16px;
 color:#0070c9 ;

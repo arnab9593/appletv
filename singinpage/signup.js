@@ -47,16 +47,15 @@ else if((document.getElementById("sixth").checked!==true))
 
 else 
 {
-  alert("Logi seccessfull")
+  alert("SignIn completed successfully...")
   
   arr.push(data)
   
   localStorage.setItem("setData",JSON.stringify(arr));
   // console.log()
+  location.href="../index.html";
+  let name=data.username +" "+ data.lastname;
+  sessionStorage.setItem("userName", name);
 }
-
-
-  
-  // window.location.href="login.html"
 });
 
