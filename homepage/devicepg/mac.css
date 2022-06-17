@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+   text-decoration: none;
+}
+
+.nav{
+    display:flex;;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   background-color: #333333;
+}
+.nav>a{
+    margin:15px 20px;
+    font-size: 12px;
+    color:rgb(151, 148, 148);
+}
+.nav>a:hover{
+       color: rgb(226, 219, 219);
+}
+.fa-apple{
+    margin: 0px 30px 0px 0px;
+    font-size: 18px;
+    color: rgb(151, 148, 148);;
+}
+.fa-apple:hover{
+    color: white;
+}
+
+ .fa-magnifying-glass{
+    margin: 0px 20px 0px 20px;
+    color: rgb(151, 148, 148);
+ }
+ .fa-magnifying-glass:hover{
+    color: white;
+ }
+
+ .fa-bag-shopping{
+    color:rgb(151, 148, 148);
+    margin: 0px 20px 0px 20px;
+}
+.fa-bag-shopping:hover{
+    color: white;
+}
+
+.display>div:first-child{
+    display: flex;
+    width:70%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.display>div:first-child>p{
+   font-size: 35px;
+  width: 70%;
+}
+ .margintext>a{
+    margin: auto;
+    margin-top: 10px;
+}
+.margintext>a:hover{
+    color: #0070c9;
+}
+hr{
+   margin: 2% 10%;
+}
+img{
+    width:572px;
+    height: 341px;
+    margin:2% 0% 2% 20%;
+}
+
+hr+a{
+    color: #0070c9;
+     margin: 20%;
+}
+hr+a:hover{
+    text-decoration: underline;
+}
+hr+a+p{
+    margin: 0% 0% 2% 20%; 
+    font-size: 30px;
+}
+img+br+a{
+margin: 0% 0% 10px 20%;
+font-size: 10px;
+
+}
+.para{
+width: 70%;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 20px;
+color: #333333;
+}
+.para>p{
+margin-bottom: 20px;
+}
+.para+hr{
+width:70%;
+margin: auto;
+}
+.dparent{
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        font-size: 22px;
+    }
+    .dparent .dcontentbox{
+        position: relative;
+        margin: 10px 30px;
+        width:80%;
+        margin: auto;
+    }
+    .dparent .dcontentbox .dtitle{
+        position: relative;
+        cursor: pointer;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .dparent .dcontentbox .dtitle::before{
+        content: "+";
+        position: absolute;
+        margin-top: -3px;
+        margin-left: 90%;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .dparent .dcontentbox.active .dtitle::before{
+        content: "x";
+    }
+    .dparent .dcontentbox .content {
+        position: relative;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+        overflow: auto;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .dparent .dcontentbox.active .dtitle{
+       border: 3px solid #0070c9;
+       padding: 2px;
+       color: #0070c9;
+    }
+    .dparent .dcontentbox.active .content{
+        height: auto;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .dparent+br+hr{
+        width: 70%;
+        margin: auto;
+    }
+    .moreinfo{
+       display: flex;
+       margin-left: 150px;
+           }
+         .moreinfo+p{
+        margin: 30px 0px 50px 150px;
+         font-size: 12px;
+         color: #333333;
+            }
+.moreinfo>a{
+    color: #0070c9;
+    margin: 0px 0px 0px 3px;
+    text-decoration: 0%;
+}
+.moreinfo>a:hover{
+    text-decoration: underline;
+}
+.moreinfo>p{
+   margin: 0px 0px 0px 10% ;
+}
+ .moreinfo+p{
+    width: 60%;
+    margin: 20px 0px 30px 270px ;
+ }
+.helpful{
+display: flex;
+width:300px;
+margin:20px 200px;
+}
+.helpful>div{
+display: flex;
+justify-content: center;
+align-items: center;
+width:250px;
+height: 30px;
+font-size: 14px;
+font-weight: bold;
+color: #0070c9;
+border: 1px solid #0070c9;
+margin: 0px 10px;
+border-radius: 5px;
+}
+.helpful>div:hover{
+background-color: #0070c9;
+color: white;
+}
+.scroll{
+display: flex;
+margin-bottom:15px;
+justify-content: space-around;
+}
+.previous{
+margin: 20px 0px 20px 100px;
+height: 70px;
+}
+.previous>p:nth-child(1){
+position: absolute;
+font-size: 40px;
+font-weight: bold;
+color:#0070c9 ;
+margin-left: -25px;
+margin-top: -10px;
+}
+.previous>p:nth-child(2){
+margin-left: 10px;
+font-size: 18px;
+font-weight: bold;
+color:gray;
+}
+.previous>a{
+margin-left: 10px;
+margin-top: 5px;
+font-size: 18px;
+font-weight: bold;
+color:#0070c9 ;
+text-decoration: 0%;
+}
+.previous>a:hover{
+text-decoration: underline;
+}
+.next{
+margin: 20px 120px;
+}
+
+.next>p:nth-child(2){
+font-size: 40px;
+position: absolute;
+margin-top: -40px;
+margin-left:195px;
+font-weight: bold;
+color:#0070c9 ;
+}
+.next>p:nth-child(1){
+margin-left: 149px;
+font-size: 18px;
+font-weight: bold;
+color:gray;
+margin-top: 5px;
+margin-right: 0px;
+}
+.next>a{
+position: relative;
+font-size: 18px;
+color:#0070c9 ;
+font-weight: bold;
+text-decoration: 0%;
+}
+.next>a:hover{
+text-decoration: underline;
+}
+#fapple >.fa-apple:hover{
+color: #333333;
+}
+.footer{
+display: grid;
+grid-template-columns: 100%;
+width: 100%;
+background-color:#ececec;
+}
+.footer a:hover{
+text-decoration: underline;
+}
+.footer>hr{
+margin: 10px 120px ;
+}
+.footer>div:first-child{
+display: flex;
+margin: 20px 0px 20px 130px;
+justify-content:flex-start ;
+}
+.footer>div:first-child>a{
+margin: 0px 15px;
+font-size: 14px;
+}
+.footer>div:last-child{
+display: flex;
+margin-top: 0px;
+}
+.footer>div:last-child>a{
+font-size: 12px;
+width: 300px;
+margin: 5px;
+}
+.footer>div:last-child>p{
+width: 900px;
+font-size: 10px;
+color: #333333;
+}
+.footer>div:last-child>a:last-child{
+margin-left: 350px;
+color: #333333;
+}
+li{
+font-size: 18px;
+color: #333333;
+line-height: 40px;
+}
+ul>li{
+line-height: 25px;
+margin: auto;
+margin-bottom: 20px;
+margin-left: 40px;
+}
+
+@media all and (min-width:120px) and (max-width:840px){
+
+.display{
+    width: 100%;
+   margin: auto;
+}
+
+img{
+width: 350px;
+height: 240px;
+}
+img+br+a{
+    margin-bottom: 10px;
+}
+.para{
+     width:80%;
+    margin:auto;
+    padding: 10px;
+}
+.para+hr{
+width:70%;
+
+}
+.dparent{
+display: flex;
+font-size: 16px;
+}
+.moreinfo{
+margin-left: 10%;
+}
+.scroll{
+width: 70%;
+margin: 0px 10%;
+}
+.scroll>.next{
+background-color: #333333;
+font-size: 12px;
+}
+.previous{
+background-color: #333333;
+font-size: 10px;
+}
+}
