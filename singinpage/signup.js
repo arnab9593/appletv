@@ -17,6 +17,7 @@ function formfunction(event) {
   let checkUser = document.querySelector("#sixth").value;
 
   let result = false;
+  let count=0;
 
   if (arr.length == 0) {
      result = true;
@@ -35,17 +36,17 @@ function formfunction(event) {
       console.log(element.email, userEmail, element.email== userEmail)
       if(element.email == userEmail ){
         result = false;
+        count++;
       }
       else{
         result = true;
-        
       }
     });
 
   }
  
 
-  if(result === true){
+  if(result === true && count==0  ){
     let data = {
       username: userName,
       lastname: lastName,

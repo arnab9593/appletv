@@ -1,18 +1,25 @@
-let userDetail = JSON.parse(localStorage.getItem("setData"));
+let userDetail = JSON.parse(localStorage.getItem("setdata"));
 
 document.getElementById("a").addEventListener("click", function () {
 
-  let ram = document.getElementById("UserName").value
+  let ram = document.getElementById("UserName").value;
   if (ram == "") {
-    alert("enter email id")
+    // alert("enter email id")
+    swal({
+      title: "Opps!",
+      text: "Enter your email",
+      icon: "error",
+      button: "Ok",
+    });
   }
   else {
 
     let ram = document.getElementById("UserName").value;
-
+    let pass;
     let id = document.getElementById("arrowIcon")
     id.addEventListener("click", function () {
-      let pass = ash.value;
+      pass = ash.value;
+      console.log(pass);
       loginFun(pass, ram);
     })
 
@@ -33,19 +40,47 @@ document.getElementById("a").addEventListener("click", function () {
 
 function loginFun(password, name) {
   if (name == "" || password == "") {
-    alert("Enter password!!");
+    // alert("Enter password!!");
+    swal({
+      title: "Opps!",
+      text: "Enter Password",
+      icon: "error",
+      button: "Ok",
+    });
   } else {
+    let res=false;
+    let count=0;
+    let fullname;
     userDetail.forEach(element => {
+      // console.log(password,name,element.password,element.email)
       if (password == element.password && name == element.email) {
-        let name = element.username + " " + element.lastname;
-        sessionStorage.setItem("userName", name);
-        alert("Login successfull...");
-        location.href = "../index.html";
+        res=true;
+        count++;
+      fullname = element.username + " " + element.lastname;
       } else {
-        window.location.reload();
-        alert("Email or password is wrong!!!! , Please recheck once again ....");
+        // alert("Email or password is wrong!!!! , Please recheck once again ....");
+        swal({
+          title: "Opps!",
+          text: "Email or password is wrong!!!! , Please recheck once again ....",
+          icon: "error",
+          button: "Ok",
+        }).then(function(){
+          window.location.reload();
+        });
       }
     });
+    if(res==true && count>0){
+        sessionStorage.setItem("userName", fullname);
+        // alert("Login successfull...");
+        swal({
+          title: "Congratulations!",
+          text: "Login successfully Done",
+          icon: "success",
+          button: "Continue",
+        }).then(function () {
+          location.href = "../index.html";
+        });
+    }
   }
   // console.log(password, name)
 }
