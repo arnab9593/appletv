@@ -39,7 +39,7 @@ function loginFun(password, name) {
       if (password == element.password && name == element.email) {
         let name = element.username + " " + element.lastname;
         sessionStorage.setItem("userName", name);
-        alert("LOgin successfull...");
+        alert("Login successfull...");
         location.href = "../index.html";
       } else {
         window.location.reload();
