@@ -1,61 +1,85 @@
 //  all js code in signup
- 
- 
 
-var form=document.querySelector("form");
-form.addEventListener("submit",function(event){
-  let arr=JSON.parse(localStorage.getItem("setdata")) || []
-  console.log(arr)
+var form = document.querySelector("form");
+form.addEventListener("submit", formfunction);
+let arr = JSON.parse(localStorage.getItem("setdata")) || [];
+console.log(arr);
+function formfunction(event) {
+  
+  console.log(arr.length)
   event.preventDefault();
-  var data={
-    // form:form.formid.value,
-    username:form.first.value,
-    lastname:form.second.value,
-    birth:form.third.value,
-    email:form.fourth.value,
-    password:form.fifth.value,
-    check:form.sixth.value,
-  };
 
+  let userName = document.querySelector("#first").value;
+  let lastName = document.querySelector("#second").value;
+  let userBirth = document.querySelector("#third").value;
+  let userEmail = document.querySelector("#fourth").value;
+  let userPassword = document.querySelector("#fifth").value;
+  let checkUser = document.querySelector("#sixth").value;
 
+  let result = false;
 
-if (data.username=="") 
-{
-  alert("enter your name")
-} 
-// else if(data.form==""){
-//   alert("fill this form")
-// }
+  if (arr.length == 0) {
+     result = true;
+    // let data = {
+    //   username: userName,
+    //   lastname: lastName,
+    //   birth: userBirth,
+    //   email: userEmail,
+    //   password: userPassword,
+    //   check: checkUser,
+    // };
+    // arr.push(data);
+  }
+  else {
+    arr.forEach(element => {
+      console.log(element.email, userEmail, element.email== userEmail)
+      if(element.email == userEmail ){
+        result = false;
+      }
+      else{
+        result = true;
+        
+      }
+    });
 
-else if(data.birth==""){
-  alert("please fill the dob")
-}
-else if(data.lastname==""){
-  alert("fill the last name")
-}
-else if (data.email==""){
-  alert("enter your email")
-}
-else if ((data.password=="") ||(data.password.length<8)){
-  alert("enter password maximum 8 digit")
-}
-else if((document.getElementById("sixth").checked!==true))
-{
-    alert("Please click on check box")
-       
-}
+  }
+ 
 
-else 
-{
-  alert("SignIn completed successfully...")
+  if(result === true){
+    let data = {
+      username: userName,
+      lastname: lastName,
+      birth: userBirth,
+      email: userEmail,
+      password: userPassword,
+      check: checkUser,
+    };
+    arr.push(data);
+    // alert("SignIn completed successfully...")
+    swal({
+      title: "Congratulations!",
+      text: "Signin completed sucessfully",
+      icon: "success",
+      button: "Continue",
+    }).then(function (){
+      location.href = "../index.html";
+    }) 
+    localStorage.setItem("setdata", JSON.stringify(arr));
   
-  arr.push(data)
-  
-  localStorage.setItem("setData",JSON.stringify(arr));
-  // console.log()
-  location.href="../index.html";
-  let name=data.username +" "+ data.lastname;
+  //console.log(userName)
+  let name = userName + " " + lastName;
   sessionStorage.setItem("userName", name);
+  }
+  else{
+     swal({
+      title: "Opps!",
+      text: "Email already exist!",
+      icon: "error",
+      button: "ok",
+    }).then(function (){
+      location.href = "signup.html";
+    }) 
+    
+  }
 }
-});
 

@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
 
       *{
@@ -287,12 +288,12 @@
       
         <div id="inputDiv">
 
-         <input id="first" type="text" placeholder="Firstname"/>
-         <input id="second" type="text" placeholder="Surname"/>
-         <input id="third" type="date" placeholder="Birthday">
-         <input id="fourth" type="email" placeholder="name@exmaple.com"/>
+         <input id="first" type="text" placeholder="Firstname" required/> 
+         <input id="second" type="text" placeholder="Surname" required/>
+         <input id="third" type="date" placeholder="Birthday" required>
+         <input id="fourth" type="email" placeholder="name@exmaple.com" required/>
          <h2 id="lower" > your email will be your Apple id</h2>
-         <input id="fifth" type="password" placeholder="password"/>
+         <input id="fifth" type="password" placeholder="password" minlength="8" required />
          <input id="sixth" type="checkbox"/> <h3 id="upper"> Agree to term condition</h3>
        </div>
 
