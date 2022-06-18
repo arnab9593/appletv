@@ -4,3 +4,6 @@ for(let i=0; i<Contentbx.length; i++){
         this.classList.toggle('active');
       })
 }
+function redirect1(){
+  window.location.href="https://www.apple.com/in/";
+}
