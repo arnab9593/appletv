@@ -33,15 +33,7 @@ Apple TV </h1>
   <li>Email: arnabpal679@gmail.com</li>
   <li>LinkedIn:https://www.linkedin.com/in/arnab-pal-71248b155/</li>
 </ul>
-
-<h4>Janaki Kangalgouda </h4>
-<ul>
-  <li>Github: janakigouda</li>
-  <li>Github Link: https://github.com/janakigouda</li>
-  <li>Email: janugouda1008@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/janaki-kangalgouda-809936169/</li>
-</ul>
-
+  
 <h4>Janaki Kangalgouda </h4>
 <ul>
   <li>Github: janakigouda</li>
@@ -65,3 +57,19 @@ Apple TV </h1>
   <li>Email: giteshsutar88@gmail.com</li>
   <li>LinkedIn: https://www.linkedin.com/in/gitesh-sutar/</li>
 </ul>
+ 
+ <h4>Lipan Padhan</h4>
+<ul>
+  <li>Github: lipan1437 </li>
+  <li>Github Link: https://github.com/lipan1437</li>
+  <li>Email: lipanpadhan1432@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/lipan-padhan-a0bb381a5/</li>
+</ul> 
+  
+ <h4>Ashish Yadav</h4>
+<ul>
+  <li>Github: Ashish898374 </li>
+  <li>Github Link: https://github.com/Ashish898374</li>
+  <li>Email: yrahulkumar163@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/ashish%20yadav/</li>
+</ul>  
