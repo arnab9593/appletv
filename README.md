@@ -3,7 +3,7 @@
 Apple TV </h1>
 
 <h3>
-  This is the clone website of Appletv.com. Apple tv is a streaming platform where user can enjoy tv shows and movies. The website work on subscription based model and available of different apple devices. Click <a href="https://lucent-parfait-62c9f0.netlify.app/"> here </a> to check the cloned website.
+  This is the clone website of Appletv.com. Apple tv is a streaming platform where user can enjoy tv shows and movies. The website work on subscription based model and available on different apple devices. Click <a href="https://lucent-parfait-62c9f0.netlify.app/"> here </a> to check the cloned website.
 </h3>
 
 <h3> We built it in 7days with the team of 6 collaborators.</h3>
