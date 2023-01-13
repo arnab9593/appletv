@@ -71,5 +71,4 @@ Apple TV </h1>
   <li>Github: Ashish898374 </li>
   <li>Github Link: https://github.com/Ashish898374</li>
   <li>Email: yrahulkumar163@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/ashish%20yadav/</li>
 </ul>  
