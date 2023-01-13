@@ -3,7 +3,7 @@
 Apple TV </h1>
 
 <h3>
-  This is the clone website of Appletv.com. Apple tv is a streaming platform where user can enjoy tv shows and movies. The website work on subscription based model and available of different apple devices. Click <a href="https://lucent-parfait-62c9f0.netlify.app/"> here </a> to check the cloned website
+  This is the clone website of Appletv.com. Apple tv is a streaming platform where user can enjoy tv shows and movies. The website work on subscription based model and available of different apple devices. Click <a href="https://lucent-parfait-62c9f0.netlify.app/"> here </a> to check the cloned website.
 </h3>
 
 <h3> We built it in 7days with the team of 6 collaborators.</h3>
@@ -34,34 +34,34 @@ Apple TV </h1>
   <li>LinkedIn:https://www.linkedin.com/in/arnab-pal-71248b155/</li>
 </ul>
 
-<h4>Padmanabh Desai</h4>
+<h4>Janaki Kangalgouda </h4>
 <ul>
-  <li>Github: Padmanabh2</li>
-  <li>Github Link: https://github.com/Padmanabh2</li>
-  <li>Email: desaipadmanabh191@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/padmanabhdesai/</li>
+  <li>Github: janakigouda</li>
+  <li>Github Link: https://github.com/janakigouda</li>
+  <li>Email: janugouda1008@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/janaki-kangalgouda-809936169/</li>
 </ul>
 
-<h4>Manmohan Singh Jina </h4>
+<h4>Janaki Kangalgouda </h4>
 <ul>
-  <li>Github: manmohanjina </li>
-  <li>Github Link: https://github.com/manmohanjina</li>
-  <li>Email: manish63singh@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/manmohan-jina-6a43a6260/</li>
+  <li>Github: janakigouda</li>
+  <li>Github Link: https://github.com/janakigouda</li>
+  <li>Email: janugouda1008@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/janaki-kangalgouda-809936169/</li>
 </ul>
 
- <h4>Hirak Debadhikary </h4>
+ <h4>Vikesh Hinge</h4>
 <ul>
-  <li>Github: Hirak-Debadhikary </li>
-  <li>Github Link: https://github.com/Hirak-Debadhikary</li>
-  <li>Email: debadhikaryhirak@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/hirak-debadhikary-374b9522b/</li>
+  <li>Github: VikeshHinge </li>
+  <li>Github Link: https://github.com/VikeshHinge</li>
+  <li>Email: vikeshvhinge@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/vikesh-hinge-b02828236/</li>
 </ul>
   
- <h4>Shubham Anand</h4>
+ <h4>Gitesh Sutar</h4>
 <ul>
-  <li>Github: Shubhand17 </li>
-  <li>Github Link: https://github.com/Shubhand17</li>
-  <li>Email: iesshubham2020@gmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/shubhanand007/</li>
+  <li>Github: gitesh8 </li>
+  <li>Github Link: https://github.com/gitesh8</li>
+  <li>Email: giteshsutar88@gmail.com</li>
+  <li>LinkedIn: https://www.linkedin.com/in/gitesh-sutar/</li>
 </ul>
